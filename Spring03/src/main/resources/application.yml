@@ -1,0 +1,7 @@
+my:
+   name: 蒜头王八
+   age: 18
+   number: ${random.int[10,99]}
+spring:
+   profiles:
+      active: dev2
