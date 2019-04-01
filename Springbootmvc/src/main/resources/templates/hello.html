@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<link th:href="@{/css/main.css}" rel="stylesheet" type="text/css" />
+<body>
+<!--  <span th:text="${username}"></span>-->
+
+<form action="#" th:action="@{/hello/add}" th:object="${user}" method="post">  
+  <input type="text" th:field="*{name}" />  
+  <input type="text" th:field="*{age}" />  
+  <input type="submit" />  
+</form> 
+
+
+</body>
+</html>
