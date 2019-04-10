@@ -6,10 +6,7 @@ import com.liululee.springsecuritypart4.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- * @author developlee
- * @since 2019/1/15 14:25
- */
+
 @Service
 public class UserServiceImpl implements UserService {
 

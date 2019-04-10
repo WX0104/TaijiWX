@@ -4,10 +4,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 
-/**
- * @author developlee
- * @since 2018/11/27 21:38
- */
+
 @Entity
 @Table(name = "tb_users")
 @Data
