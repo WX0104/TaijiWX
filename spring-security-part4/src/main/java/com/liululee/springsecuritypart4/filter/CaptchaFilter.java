@@ -17,10 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author developlee
- * @since 2019/1/14 16:42
- */
+
 @Slf4j
 public class CaptchaFilter extends OncePerRequestFilter {
 

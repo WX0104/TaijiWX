@@ -8,8 +8,6 @@ import java.util.Collection;
 
 /**
  * 该类实现UserDetails
- * @author developlee
- * @since 2019/1/15 14:48
  */
 public class AuthUserDetails implements UserDetails {
 

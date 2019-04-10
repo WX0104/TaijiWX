@@ -18,10 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author developlee
- * @since 2018/11/27 21:57
- */
+
 @Slf4j
 @Controller
 public class LoginController {

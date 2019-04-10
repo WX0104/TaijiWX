@@ -7,10 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-/**
- * @author developlee
- * @since 2019/1/15 14:22
- */
+nce 2019/1/15 14:22
+ 
 @Slf4j
 @Controller
 public class AuthController {

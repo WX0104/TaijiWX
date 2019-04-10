@@ -9,8 +9,6 @@ import javax.persistence.Table;
 
 /**
  * 该实体类对应数据库实体
- * @author developlee
- * @since 2019/1/15 14:35
  */
 @Table(name = "tb_users")
 @Entity

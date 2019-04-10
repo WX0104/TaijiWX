@@ -4,10 +4,7 @@ package com.liululee.springsecuritypart4.util;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.Random;
-/**
- * @author developlee
- * @since 2019/1/18 17:24
- */
+
 public class ValidateUtil {
     // 验证码字符集
     private static final char[] chars = {

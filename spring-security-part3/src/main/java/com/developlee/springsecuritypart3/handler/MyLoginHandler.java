@@ -10,10 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author developlee
- * @since 2018/11/27 22:01
- */
+
 @Slf4j
 @Component
 public class MyLoginHandler implements AuthenticationSuccessHandler {

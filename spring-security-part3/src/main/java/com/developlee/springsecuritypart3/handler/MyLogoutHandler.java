@@ -8,10 +8,7 @@ import org.springframework.stereotype.Component;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * @author developlee
- * @since 2018/11/27 22:04
- */
+
 @Slf4j
 @Component
 public class MyLogoutHandler implements LogoutHandler {

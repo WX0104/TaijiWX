@@ -11,10 +11,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-/**
- * @author developlee
- * @since 2018/11/25 17:32
- */
+
 @Component
 public class MyUserDetailsService implements UserDetailsService {
     private static final Logger logger = LoggerFactory.getLogger(MyUserDetailsService.class);
